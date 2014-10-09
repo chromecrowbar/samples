@@ -4,7 +4,7 @@
  * @param {object} options {width,height}
  * @returns {$.fn} jQuery object
  */
-if (typeof jQuery === 'object') {
+if (typeof jQuery === 'function') {
     (function ($) {
         $.fn.youtube = function (id,options) {
             var test = /[0-9a-zA-Z]{11}/;
