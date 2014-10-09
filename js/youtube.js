@@ -1,5 +1,6 @@
 /**
  * Simple YouTube Plugin
+ * if class, will only append to first class
  * @param {string} id YouTube id
  * @param {object} options {width,height}
  * @returns {$.fn} jQuery object
